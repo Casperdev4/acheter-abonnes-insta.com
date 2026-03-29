@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://instaaboost.fr/sitemap.xml
+Sitemap: https://acheter-abonnes-insta.com/sitemap.xml
