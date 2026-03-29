@@ -1,0 +1,42 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(git pull:*)",
+      "Bash(git checkout:*)",
+      "Bash(powershell -command \"Get-Item ''c:\\\\Users\\\\Webpr\\\\Desktop\\\\avis-market\\\\favicon.ico'' | Select-Object Name, Length\")",
+      "Bash(powershell:*)",
+      "Bash(powershell.exe -File -:*)",
+      "Bash(powershell.exe -NoProfile -ExecutionPolicy Bypass -File \"c:\\\\Users\\\\Webpr\\\\Desktop\\\\Mes_Sites\\\\moi\\\\E-Commerce\\\\avis-market.fr\\\\get-dimensions.ps1\")",
+      "Bash(for f in *.webp)",
+      "Bash(do echo -n \"$f: \")",
+      "Bash(xxd:*)",
+      "Bash(done)",
+      "Bash(git mv:*)",
+      "Bash(else echo \"Git: NO\")",
+      "Bash(fi)",
+      "Bash(git -C \"c:/Users/Webpr/Desktop/Entreprises/WebPrime/Mes_Sites/E-Commerce_/avis-market.fr\" status)",
+      "Bash(git -C \"c:/Users/Webpr/Desktop/Entreprises/WebPrime/Mes_Sites/E-Commerce_/avis-market.fr\" diff)",
+      "Bash(git -C \"c:/Users/Webpr/Desktop/Entreprises/WebPrime/Mes_Sites/E-Commerce_/avis-market.fr\" log --oneline -5)",
+      "Bash(git -C \"c:/Users/Webpr/Desktop/Entreprises/WebPrime/Mes_Sites/E-Commerce_/avis-market.fr\" add index.html acheter-avis-negatif-google.html supprimer-avis-google.html sitemap.xml)",
+      "Bash(git -C:*)",
+      "Bash(git rm:*)",
+      "WebFetch(domain:avis-market.fr)",
+      "WebFetch(domain:achatavis.com)",
+      "Bash(ls:*)",
+      "Bash(grep -l 'promo-bar' *.html)",
+      "Bash(xargs -I{} basename {})",
+      "Read(//c/Users/Webpr/Desktop/WebPrime/Mes_Sites/E-Commerce_/Sociaux_2/Instagram/**)",
+      "Read(//c/Users/Webpr/Desktop/WebPrime/Mes_Sites/E-Commerce_/Sociaux_2/**)",
+      "Bash(head -14 grep -oP 'class=\"\"\"\"price\"\"\"\">\\\\K[^<]+' auto-vues.html)",
+      "Bash(python3 fix_all.py)",
+      "Bash(python fix_all.py)"
+    ]
+  }
+}
