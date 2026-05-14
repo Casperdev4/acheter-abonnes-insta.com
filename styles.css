@@ -7,7 +7,7 @@
     --dark-soft: #16213E;
     --light: #F8F9FE;
     --white: #ffffff;
-    --gray: #7C8DB5;
+    --gray: #4E5B7A;
     --gray-light: #E8ECF4;
     --gradient: linear-gradient(135deg, #6C5CE7 0%, #A29BFE 50%, #00CEC9 100%);
     --gradient-alt: linear-gradient(135deg, #6C5CE7 0%, #FD79A8 50%, #00CEC9 100%);
@@ -487,6 +487,7 @@ img {
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin-top: 60px;
+    align-items: stretch;
 }
 
 .step {
@@ -497,6 +498,17 @@ img {
     border: 1px solid var(--gray-light);
     transition: var(--transition);
     position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.steps.steps-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.step > .btn {
+    margin-top: auto !important;
+    align-self: center;
 }
 
 .step:hover {
@@ -556,7 +568,7 @@ img {
     background: var(--white);
     border-radius: var(--radius-lg);
     padding: 44px 32px;
-    border: 1px solid var(--gray-light);
+    border: 2px solid var(--primary);
     transition: var(--transition);
     position: relative;
     display: flex;
@@ -567,7 +579,6 @@ img {
 .pricing-card:hover {
     transform: translateY(-10px);
     box-shadow: var(--shadow-lg);
-    border-color: rgba(108, 92, 231, 0.2);
 }
 
 .pricing-card.featured {
@@ -917,6 +928,10 @@ img {
 }
 
 @media (max-width: 1024px) {
+    .steps.steps-4 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .hero-content h1 {
         font-size: 40px;
     }
@@ -1100,7 +1115,8 @@ img {
         font-size: 12px;
     }
 
-    .steps {
+    .steps,
+    .steps.steps-4 {
         grid-template-columns: 1fr;
     }
 
